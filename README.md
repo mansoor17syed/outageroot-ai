@@ -28,9 +28,9 @@ flowchart LR
     manual[ManualLogsDeployInput] --> norm
     norm --> enrich[VertexEnricher]
     enrich --> score[BayesianCausalRanker]
-    score --> graph[(Neo4j)]
+    score --> neo4jStore[(Neo4j)]
     score --> ui[StreamlitUI]
-    graph --> ui
+    neo4jStore --> ui
 ```
 
 ## Quick Start
