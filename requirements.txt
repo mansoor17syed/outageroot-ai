@@ -1,0 +1,6 @@
+streamlit
+requests
+neo4j
+pydantic
+python-dotenv
+pytest

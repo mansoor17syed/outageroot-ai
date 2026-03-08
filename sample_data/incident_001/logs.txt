@@ -1,0 +1,4 @@
+2026-03-08T08:00:12Z service=checkout level=ERROR message="db timeout during checkout"
+2026-03-08T08:00:20Z service=checkout level=ERROR message="connection pool exhausted"
+2026-03-08T08:00:30Z service=payments level=WARN message="retry budget exhausted"
+2026-03-08T08:01:10Z service=checkout level=ERROR message="oom kill signal observed in pod"

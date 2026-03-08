@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-03-08T07:58:00Z",
+    "service": "checkout",
+    "version": "v142",
+    "action": "deploy"
+  },
+  {
+    "timestamp": "2026-03-08T07:59:00Z",
+    "service": "payments",
+    "version": "v57",
+    "action": "deploy"
+  }
+]

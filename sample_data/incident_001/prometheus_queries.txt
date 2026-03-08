@@ -1,0 +1,2 @@
+ALERTS{alertstate="firing"}
+rate(container_cpu_usage_seconds_total[5m])
